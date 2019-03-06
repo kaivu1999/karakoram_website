@@ -14,8 +14,6 @@ visit localhost:8000
 ### Mess menu feature.
 Can be changed by ADMIN LOGIN (Mess Secy)
 
-
-![Mess Menu feature](https://user-images.githubusercontent.com/35027192/49395728-4d8e7100-f75d-11e8-950f-b30070e362cf.png)
 ![admin](https://user-images.githubusercontent.com/35027192/53871304-06e13900-4022-11e9-8c5b-ffa8b905f160.png)
 
 ![mess](https://user-images.githubusercontent.com/35027192/53871363-21b3ad80-4022-11e9-93ef-b9fd3aed1bfd.png)
