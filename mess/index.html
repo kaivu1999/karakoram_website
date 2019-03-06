@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.1/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+
+    <title>Karakoram Hostel IIT Delhi</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Static files -->
+    <script src="./mess.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-image: linear-gradient(141deg, #2cb5e8 0%, #1fc8db 51%, #9fb8ad 75%); ">
+      <a class="navbar-brand" href="#">
+        Karakoram
+      </a>
+      <button class="navbar-toggler type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.php">About Kara</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.php">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/mess/">Mess Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.php">Secys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.php">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.php">Alumni</a>
+          </li>
+
+        </ul>
+        <ul class="my-2 my-lg-0" style="padding-inline-start:0px;">
+          
+            <a class="mr-sm-2" href="/admin/">Login</a>
+          
+        </ul>
+      </div>
+    </nav>
+
+    
+    <div class="container" id="mess">
+      <br>
+      <br>
+      <p class="h2">
+        Today's Mess Menu
+      </p>
+<!-- Place this tag where you want the Awesome Table Widget to render -->
+         <button type="button" class="btn btn-info btn-block" onclick="loadDoc(1)">Next Day</button>
+      <div id = "mess_data">
+        <br>
+        <div class = "container-fluid" id="employee_table">
+        </div>
+        <br>
+         <button type="button" class="btn btn-info btn-block" onclick="loadDoc(-1)">Previous Day</button>
+    </div>
+    </div>
+<br>
+<br>
+    <footer class="footer">
+      <div class="container">
+        <span class="align-content-center">&copy; Paritosh Raj & Kaivalya Swami</span>
+      </div>
+    </footer>
+  </body>
+</html>
