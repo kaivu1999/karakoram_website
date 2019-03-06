@@ -28,7 +28,7 @@
             <a class="nav-link" href="/complaints/"style="color:white;">Complaints</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/gallery/   a"style="color:white;">Gallery</a>
+            <a class="nav-link" href="/gallery/"style="color:white;">Gallery</a>
           </li>
 
         </ul>
