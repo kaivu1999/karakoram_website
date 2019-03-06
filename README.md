@@ -1,5 +1,6 @@
 # karakoram_website
 Sarvashrestum SarvaSundaram Karakoram !!
+hosted temporarily at : https://karakoram-iit.herokuapp.com
 
 ## Requirements 
 - PHP
